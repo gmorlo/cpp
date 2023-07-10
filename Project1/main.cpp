@@ -3,6 +3,8 @@
 #include <ctime>
 #include <string>
 
+//"Losowy wybór z tablicy - program obiektowy do wprowadzania i wyświetlania elementów"
+
 class RandomArray {
 private:
     int size;
