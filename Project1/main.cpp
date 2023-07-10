@@ -3,8 +3,6 @@
 #include <ctime>
 #include <string>
 
-//"Losowy wybór z tablicy - program obiektowy do wprowadzania i wyświetlania elementów"
-
 class RandomArray {
 private:
     int size;
@@ -55,5 +53,13 @@ int main() {
     randomArray.printRandomElement();
     randomArray.printAllElements();
 
+    int y = 0;
+    std::cout << "Podaj rozmiar drogiej tablicy: ";
+    std::cin >> y;
+
+    RandomArray randomArray1(y);
+    randomArray1.readElements();
+    randomArray1.printRandomElement();
+    randomArray1.printAllElements();
     return 0;
 }
