@@ -17,14 +17,13 @@ Gracze atakują zwierzaki przeciwnika, używając kart cech.
 Każde zwierzę może wykonać tylko jeden atak na całą fazę walki.
 Gdy wszystkie zwierzaki stracą możliwość ataku, przechodzimy do kolejnej rundy, zaczynając od fazy rozwoju. Kolejność ruchu przechodzi na kolejnego gracza po każdej rundzie.
 
-Interakcje między cechami:
 1. Ostry wzrok: Zwierzę z tą cechą może zaatakować i zjeść zwierzę z cechą "Kamuflaż".
-2. Kamuflaż: Zwierzę z tą cechą jest zamaskowane i może być zaatakowane tylko przez zwierzę z cechą "Ostry wzrok".
+2. Kamuflaż: Zwierzę z tą cechą jest zamaskowane i może być zaatakowane przez zwierzę z cechą "Ostry wzrok".
 3. Duże szczęki: Zwierzę z tą cechą może zaatakować i zjeść zwierzę z cechą "Gruba skóra".
-4. Gruba skóra: Zwierzę z tą cechą ma twardszą skórę i zmniejsza otrzymywane obrażenia.
-5. Siła: Zwierzę z tą cechą ma większą siłę i zadaje większe obrażenia.
-6. Duża masa ciała: Zwierzę z tą cechą ma większą masę ciała i trudniej je zjeść.
-7. Inteligencja: Zwierzę z tą cechą może ominąć jedną cechę przeciwnika i zaatakować dowolną inną cechę.
+4. Gruba skóra: Zwierzę z tą cechą ma twardszą skórę, co zapewnia mu ochronę przed obrażeniami. Zwierzę z cechą "Duże szczęki" może go zaatakować.
+5. Siła: Zwierzę z tą cechą ma większą siłę, zadając większe obrażenia podczas ataku. Może zaatakować zwierzę z cechą "Duża masa ciała".
+6. Duża masa ciała: Zwierzę z tą cechą ma większą masę ciała, co utrudnia jego zjedzenie przez inne zwierzęta. Może zostać zaatakowane przez zwierzę z cechą "Siła".
+7. Inteligencja: Zwierzę z tą cechą ma zdolność do omijania jednej cechy przeciwnika i atakowania dowolnej innej cechy.
 8. Odrzucenie ogona: Zwierzę z tą cechą może odrzucić jedną cechę przeciwnika, unikając ataku.
 
 Zakończenie gry:
