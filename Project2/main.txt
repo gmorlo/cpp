@@ -1,1 +1,37 @@
+Gra karciana "Zwierzęta" z wykorzystaniem 8 cech:
 
+Przygotowanie gry:
+
+Stos doboru zawiera 6 kopii kart każdej z 8 cech - łącznie 48 kart.
+Każdy gracz otrzymuje losową rękę z 5 kartami cech zwierząt.
+Przebieg gry:
+
+Runda składa się z dwóch tur: fazy rozwoju i fazy walki.
+a) Faza rozwoju:
+Każdy gracz uzupełnia swoją rękę o tyle kart, ile zwierząt ma na polu plus 1.
+Gracze dodają swoje zwierzaki i cechy do swojego pola.
+Zwierzaki i cechy są umieszczane przed graczem.
+b) Faza walki:
+Pierwszy gracz, który rozpoczął fazę rozwoju, rozpoczyna fazę walki.
+Gracze atakują zwierzaki przeciwnika, używając kart cech.
+Każde zwierzę może wykonać tylko jeden atak na całą fazę walki.
+Gdy wszystkie zwierzaki stracą możliwość ataku, przechodzimy do kolejnej rundy, zaczynając od fazy rozwoju. Kolejność ruchu przechodzi na kolejnego gracza po każdej rundzie.
+
+Interakcje między cechami:
+1. Ostry wzrok: Zwierzę z tą cechą może zaatakować i zjeść zwierzę z cechą "Kamuflaż".
+2. Kamuflaż: Zwierzę z tą cechą jest zamaskowane i może być zaatakowane tylko przez zwierzę z cechą "Ostry wzrok".
+3. Duże szczęki: Zwierzę z tą cechą może zaatakować i zjeść zwierzę z cechą "Gruba skóra".
+4. Gruba skóra: Zwierzę z tą cechą ma twardszą skórę i zmniejsza otrzymywane obrażenia.
+5. Siła: Zwierzę z tą cechą ma większą siłę i zadaje większe obrażenia.
+6. Duża masa ciała: Zwierzę z tą cechą ma większą masę ciała i trudniej je zjeść.
+7. Inteligencja: Zwierzę z tą cechą może ominąć jedną cechę przeciwnika i zaatakować dowolną inną cechę.
+8. Odrzucenie ogona: Zwierzę z tą cechą może odrzucić jedną cechę przeciwnika, unikając ataku.
+
+Zakończenie gry:
+Gra kończy się, gdy skończą się karty do doboru. Ostatnia runda to ostatnia faza rozwoju, podczas której graczom przysługuje dobór kart.
+
+Podliczanie punktów:
+Na koniec gry, dla każdego zwierzęcia przyznawane są 2 punkty, a dla każdej przypisanej cechy 1 punkt.
+
+Zasady zwycięstwa:
+Gracz, który zdobył najwięcej punktów na podstawie posiadanych zwierząt i cech, wygrywa grę.
